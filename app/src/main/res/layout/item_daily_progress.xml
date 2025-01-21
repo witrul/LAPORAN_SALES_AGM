@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTanggal"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"/>
+
+            <TextView
+                android:id="@+id/tvNamaSales"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"/>
+
+            <TextView
+                android:id="@+id/tvNamaToko"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"/>
+
+            <TextView
+                android:id="@+id/tvAlamat"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"/>
+
+            <TextView
+                android:id="@+id/tvNominal"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:padding="4dp"/>
+        </TableRow>
+    </TableLayout>
+</com.google.android.material.card.MaterialCardView> 
